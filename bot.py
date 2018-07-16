@@ -1,17 +1,7 @@
-from NB import naive_bayes
+from LRmodel import classification
 import csv
 import random
-
-
-def classification(interaction):
-    """
-    Classify a interaction.
-
-    :interaction type: str
-    :rtype: list
-    """
-    return list(naive_bayes(interaction).keys())[0]
-
+from sklearn.feature_extraction.text import CountVectorizer
 
 def load_answers(path):
     """
