@@ -1,4 +1,6 @@
-from LRmodel import classification
+#from LRmodel import classification
+#from SVMmodel import classification
+from NB import classification
 import csv
 import random
 from sklearn.feature_extraction.text import CountVectorizer
@@ -41,11 +43,12 @@ def main():
 
     intention = ''
 
-    print("Olá. Seja bem vindo ao canal de atendimento da secretaria. Como podemos te ajudar?")
+    print("Ola. Seja bem vindo ao canal de atendimento da secretaria. Como podemos te ajudar?")
 
     while intention != 'despedida':
         question = input()
         if question in ['não','n','nao']:
+            print("Ok, ate breve!")
             break
         else:
             intention = classification(question)
