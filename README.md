@@ -60,5 +60,5 @@ $ python bot.py
 # Models evaluation
 
 ```
-$ metrics bot.py
+$ python metrics.py
 ```
