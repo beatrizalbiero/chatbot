@@ -1,6 +1,6 @@
-#from LRmodel import classification
+from LRmodel import classification
 #from SVMmodel import classification
-from NB import classification
+#from NB import classification
 import csv
 import random
 from sklearn.feature_extraction.text import CountVectorizer
