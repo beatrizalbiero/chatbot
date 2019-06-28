@@ -1,6 +1,8 @@
 # READ ME
 
 The simplest chatbot ever.
+This first version of my chatbot is capable of answering questions about this web [page](http://pos.fflch.usp.br/).
+(PT-BR)
 
 ---
 # Requirements
@@ -41,16 +43,7 @@ Answers:
 respostas_bot.csv
 
 ---
-This first version of my chatbot is capable of answering questions about this web [page](http://pos.fflch.usp.br/).
-
-yeah yeah yeah I know it is in portuguese, buuut soon I'll add examples in english.
-
----
 # Test it
-
-After installing all requirements...
-
-You can run it and try it.
 
 ```
 $ python bot.py
