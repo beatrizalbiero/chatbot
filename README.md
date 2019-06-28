@@ -1,8 +1,6 @@
 # READ ME
 
-After weeks developing chatbots using stupid paid software, I've decided I've had enough of this and built a simple, yet my OWN chatbot.
-
-I really mean it, it is really simple. But it was a cool exercise!
+The simplest chatbot ever.
 
 ---
 # Requirements
@@ -17,6 +15,7 @@ $ pip3 install -r requirements.txt
 
 - Build a chatbot that is campable of identifying a few possible intentions
 - Do this using a very short training data set.
+
 ---
 # Models
 
